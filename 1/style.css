@@ -1,0 +1,83 @@
+body{
+    margin: 0%;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    background-color: orangered;
+    margin: 0%;
+    height: 20vh;
+}
+
+header h1{
+    text-align: center;
+    line-height: 20vh;
+}
+
+nav{
+    background-color: gray;
+    height: 50px;
+}
+nav ul{
+    display: inline;
+}
+
+nav ul li {
+    float: left;
+    line-height: 50px;
+    display: block;
+    position: relative;
+    
+}
+
+nav ul li a{ text-decoration: none;
+    font-size: 16px;
+    color: aliceblue;
+    padding: 0px 20px;
+    display: block;}
+    
+nav ul li a:hover{
+    background-color:black;
+      
+    }
+
+.menu{
+    display: none;
+    
+    
+}
+
+nav ul li .menu ul li  a{
+    width: 60px;
+    display: block;
+    background-color: grey;
+    color: white;
+  
+   
+}
+
+nav ul li:hover .menu {
+    display: block;
+    background-color: gray;
+    color: black;
+    margin: 0%;
+}
+nav ul li:hover .menu ul{
+    width: 60px;
+    display: block;
+   
+   
+}
+nav ul li:hover .menu ul li{
+    text-align: center;
+   font-size: 14px;
+   
+}
+
+nav ul li:hover .menu ul li a:hover{
+    display: block;
+    text-decoration: none;
+    background-color: gray;
+    color: black;
+}
